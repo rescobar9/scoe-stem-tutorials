@@ -6,9 +6,9 @@
         "radio": "*"
     },
     "files": [
-        "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "Lightsensor.md"
     ],
     "testFiles": [
         "test.ts"
