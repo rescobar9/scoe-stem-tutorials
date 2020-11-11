@@ -34,6 +34,7 @@ basic.showNumber(0)
 
 ## Step 5
 From "Variables", drag the "reading" block and replace the "0" in the "show number 0"
+```blocks
  let reading = input.lightLevel()
 basic.showNumber(reading)
 })
