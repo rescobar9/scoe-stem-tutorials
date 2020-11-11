@@ -32,52 +32,6 @@ basic.showNumber(0)
 })
 ```
 
-## Step 5
-From "Variables", drag the "reading" block and replace the "0" in the "show number 0"
-```blocks
- let reading = input.lightLevel()
-basic.showNumber(reading)
-})
-```
 
-## Step 6
-From "Variables", drag the "reading" block under the previous block.
-```blocks
- basic.forever(function (){
- let reading = input.lightLevel()
-basic.showNumber(reading)
-})
-```
-
-## Step 7
-From "LED", drag the "plot bar graph of 0 up to 0" block under the previous block.
-```blocks
- basic.forever(function (){
- let reading = input.lightLevel()
-basic.showNumber(reading)
-led.plotBarGraph(0,0)
-})
-```
-
-## Step 8
-From "Variables", drag another "reading" block and replace the first 0 in the "plot bar graph of 0 to 0" block. Next, change the second 0 to 255.
-```blocks
- basic.forever(function (){
- let reading = input.lightLevel()
-basic.showNumber(reading)
-led.plotBarGraph(reading,255)
-})
-```
-## Step 9
-Connect the Micro:bit to the USB port on your computer. Then click on "Download" (Make sure that you download the file to the Micro:bit drive")
-```blocks
- basic.forever(function (){
- let reading = input.lightLevel()
-basic.showNumber(reading)
-led.plotBarGraph(reading,255)
-})
-```
-## Step 10
-Congratulations, you did it!
 
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
