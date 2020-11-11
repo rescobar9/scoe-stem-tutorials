@@ -1,9 +1,8 @@
 
 > Open this page at [https://rescobar9.github.io/scoe-stem-tutorials/](https://rescobar9.github.io/scoe-stem-tutorials/)
 
-## tutorials
+## tutorial
 
-* [tutorial](/tutorials)
 * [Start](https://makecode.microbit.org/#tutorial:github:rescobar9/scoe-stem-tutorials/Lightsensor)
 
 ## Edit this project ![Build status badge](https://github.com/rescobar9/scoe-stem-tutorials/workflows/MakeCode/badge.svg)
