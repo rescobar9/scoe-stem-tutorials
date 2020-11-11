@@ -1,14 +1,9 @@
 
 > Open this page at [https://rescobar9.github.io/scoe-stem-tutorials/](https://rescobar9.github.io/scoe-stem-tutorials/)
 
-## Use as Extension
+## tutorials
 
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/rescobar9/scoe-stem-tutorials** and import
+* [tutorial](/tutorials)
 
 ## Edit this project ![Build status badge](https://github.com/rescobar9/scoe-stem-tutorials/workflows/MakeCode/badge.svg)
 
