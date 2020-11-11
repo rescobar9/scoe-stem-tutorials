@@ -1,5 +1,5 @@
 
-> Open this page at [https://rescobar9.github.io/scoe-stem-tutorials/](https://rescobar9.github.io/scoe-stem-tutorials/)
+> Open this page at [https://github.com/rescobar9/scoe-stem-tutorials/](https://github.com/rescobar9/scoe-stem-tutorials/)
 
 ## tutorial
 
