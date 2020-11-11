@@ -9,15 +9,17 @@ Make a variable named "reading"
 In "Variables", drag the "set reading to 0" block inside the forever loop. 
 ```blocks
  basic.forever(function (){
- reading = 0
-} ```
+ var reading = 0
+})
+```
 
 ## Step 3
 Then from "Input", drag the "light level" block and replace the "0".
 ```blocks
  basic.forever(function (){
  let reading = input.lightLevel()
-} ```
+})
+```
 
 ## Step 4
 From "Basic", drag the "show number 0" block under the previous block.
@@ -25,7 +27,8 @@ From "Basic", drag the "show number 0" block under the previous block.
  basic.forever(function (){
  let reading = input.lightLevel()
 basic.showNumber(0)
-} ```
+})
+```
 
 ## Step 5
 From "Variables", drag the "reading" block under the previous block.
@@ -33,7 +36,8 @@ From "Variables", drag the "reading" block under the previous block.
  basic.forever(function (){
  let reading = input.lightLevel()
 basic.showNumber(reading)
-} ```
+})
+```
 
 ## Step 6
 From "Variables", drag the "reading" block under the previous block.
@@ -41,7 +45,8 @@ From "Variables", drag the "reading" block under the previous block.
  basic.forever(function (){
  let reading = input.lightLevel()
 basic.showNumber(reading)
-} ```
+})
+```
 
 ## Step 7
 From "LED", drag the "plot bar graph of 0 up to 0" block under the previous block.
@@ -50,7 +55,8 @@ From "LED", drag the "plot bar graph of 0 up to 0" block under the previous bloc
  let reading = input.lightLevel()
 basic.showNumber(reading)
 led.plotBarGraph(0,0)
-} ```
+})
+```
 
 ## Step 8
 From "Variables", drag the "reading" block and replace the first 0. Change the second 0 to 255.
@@ -59,4 +65,5 @@ From "Variables", drag the "reading" block and replace the first 0. Change the s
  let reading = input.lightLevel()
 basic.showNumber(reading)
 led.plotBarGraph(reading,255)
-} ```
+})
+```
