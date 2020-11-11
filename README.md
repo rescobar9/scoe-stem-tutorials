@@ -4,6 +4,7 @@
 ## tutorials
 
 * [tutorial](/tutorials)
+* [Start](https://makecode.microbit.org/#tutorial:github:rescobar9/scoe-stem-tutorials/Lightsensor)
 
 ## Edit this project ![Build status badge](https://github.com/rescobar9/scoe-stem-tutorials/workflows/MakeCode/badge.svg)
 
