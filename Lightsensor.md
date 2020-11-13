@@ -24,7 +24,7 @@ Then from "Input", drag the "light level" block and replace the "0".
 ```
 
 ## Step 4
-From "Basic", drag the "show number 0" block under the previous block.
+From "Basic", drag the "show number 0" block under the previous red block.
 ```blocks
  basic.forever(function (){
  let reading = input.lightLevel()
@@ -40,15 +40,6 @@ basic.showNumber(reading)
 ```
 
 ## Step 6
-From "Variables", drag the "reading" block under the previous block.
-```blocks
- basic.forever(function (){
- let reading = input.lightLevel()
-basic.showNumber(reading)
-})
-```
-
-## Step 7
 From "LED", drag the "plot bar graph of 0 up to 0" block under the previous block.
 ```blocks
  basic.forever(function (){
@@ -58,8 +49,8 @@ led.plotBarGraph(0,0)
 })
 ```
 
-## Step 8
-From "Variables", drag another "reading" block and replace the first 0 in the "plot bar graph of 0 to 0" block. Next, change the second 0 to 255.
+## Step 7
+From "Variables", drag another "reading" block and replace the first 0 in the "plot bar graph of 0 up to 0" block. Next, change the second 0 to 255.
 ```blocks
  basic.forever(function (){
  let reading = input.lightLevel()
@@ -67,7 +58,7 @@ basic.showNumber(reading)
 led.plotBarGraph(reading,255)
 })
 ```
-## Step 9
+## Step 8
 Connect the Micro:bit to the USB port on your computer. Then click on "Download" (Make sure that you download the file to the Micro:bit drive")
 ```blocks
  basic.forever(function (){
@@ -76,7 +67,7 @@ basic.showNumber(reading)
 led.plotBarGraph(reading,255)
 })
 ```
-## Step 10
+## Step 9
 
 Congratulations! You did it.
 

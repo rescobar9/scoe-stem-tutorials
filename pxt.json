@@ -9,8 +9,7 @@
     "files": [
         "main.ts",
         "README.md",
-        "Lightsensor.md",
-        "Accelerationsensor.md"
+        "Lightsensor.md"
     ],
     "testFiles": [
         "test.ts"
