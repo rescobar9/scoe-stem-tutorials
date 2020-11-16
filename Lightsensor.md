@@ -2,20 +2,20 @@
 
 ## Step 1
 
-Make a variable and name it "reading" 
+In ``||Variables:Variables||``, make a variable and name it, ``||Variables:reading||``. 
 
 ## Step 2
 
-In "Variables", drag the "set reading to 0" block inside the forever loop. 
+In ``||Variables:Variables||``, drag the ``||Variables:set reading to 0||`` block inside the ``||Basic:forever||`` loop. 
 
 ```blocks
  basic.forever(function (){
- var reading = 0
+reading = 0
 })
 ```
 
 ## Step 3
-Then from "Input", drag the "light level" block and replace the "0".
+Then from ``||Input:Input||``, drag the ``||Input:light level||`` block and replace the "0" in the ``||Variables:set reading to 0||``.
 
 ```blocks
  basic.forever(function (){
@@ -24,7 +24,7 @@ Then from "Input", drag the "light level" block and replace the "0".
 ```
 
 ## Step 4
-From "Basic", drag the "show number 0" block under the previous red block.
+In ``||Basic:Basic||``, drag the ``||Basic:show number 0||`` block under the previous ``||Variables:set reading||`` ``||Input:light level||`` block.
 ```blocks
  basic.forever(function (){
  let reading = input.lightLevel()
@@ -32,7 +32,7 @@ basic.showNumber(0)
 })
 ```
 ## Step 5
-From "Variables", drag the "reading" block and replace the "0" in the "show number 0"
+In``||Variables:Variables||``, drag the ``||Variables:reading||`` block and replace the "0" in the  ``||Basic:show number 0||`` block.
 ```blocks
  let reading = input.lightLevel()
 basic.showNumber(reading)
@@ -40,7 +40,7 @@ basic.showNumber(reading)
 ```
 
 ## Step 6
-From "LED", drag the "plot bar graph of 0 up to 0" block under the previous block.
+In ``||Led:Led||``, drag the ``||Led:plot bar graph of 0 up to 0||`` block under the previous ``||Basic:show number 0||`` block.
 ```blocks
  basic.forever(function (){
  let reading = input.lightLevel()
@@ -50,7 +50,7 @@ led.plotBarGraph(0,0)
 ```
 
 ## Step 7
-From "Variables", drag another "reading" block and replace the first 0 in the "plot bar graph of 0 up to 0" block. Next, change the second 0 to 255.
+From ``||Variables:Variables||``", drag another ``||Variables:reading||`` block and replace the first 0 in the ``||Led:plot bar graph of 0 up to 0||`` block. Next, change the second 0 to 255.
 ```blocks
  basic.forever(function (){
  let reading = input.lightLevel()
