@@ -2,6 +2,7 @@
 
 ## Step 1
 
+Drag the ``||Basic:start||`` block to the trash on the left main menu. 
 In ``||Variables:Variables||``, make a variable and name it, ``||Variables:reading||``. 
 
 ## Step 2
